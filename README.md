@@ -1,5 +1,8 @@
 # jalaapalette — amino-acid colour schemes for Jalview
 
+<!-- aapalette logo (shields.io coloured residues) -->
+![A](https://img.shields.io/static/v1?label=&message=A&color=769214&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=769214&style=flat-square)![P](https://img.shields.io/static/v1?label=&message=P&color=C15BFD&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=769214&style=flat-square)![L](https://img.shields.io/static/v1?label=&message=L&color=B5D900&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CC8347&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CC8347&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)
+
 Importable [Jalview](https://www.jalview.org/) colour-scheme files for **10
 amino-acid colour palettes**, generated from a single source of truth
 (`aa_palettes.json`).
