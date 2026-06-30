@@ -113,7 +113,7 @@ def validate(data: dict) -> None:
 # Jalview file rendering
 # --------------------------------------------------------------------------- #
 def _rgb(hex_str: str) -> str:
-    """'#769214' -> '769214' (strip leading '#'; Jalview wants bare hex)."""
+    """'#A8E4A0' -> 'A8E4A0' (strip leading '#'; Jalview wants bare hex)."""
     return hex_str.lstrip("#")
 
 

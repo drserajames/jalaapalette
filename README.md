@@ -1,7 +1,7 @@
 # jalaapalette — amino-acid colour schemes for Jalview
 
 <!-- aapalette logo (shields.io coloured residues) -->
-![A](https://img.shields.io/static/v1?label=&message=A&color=769214&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=769214&style=flat-square)![P](https://img.shields.io/static/v1?label=&message=P&color=C15BFD&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=769214&style=flat-square)![L](https://img.shields.io/static/v1?label=&message=L&color=B5D900&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CC8347&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CC8347&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)
+![A](https://img.shields.io/static/v1?label=&message=A&color=A8E4A0&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=A8E4A0&style=flat-square)![P](https://img.shields.io/static/v1?label=&message=P&color=A44DD7&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=A8E4A0&style=flat-square)![L](https://img.shields.io/static/v1?label=&message=L&color=2ADB2A&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CC7228&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CC7228&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)
 
 Importable [Jalview](https://www.jalview.org/) colour-scheme files for **10
 amino-acid colour palettes**, generated from a single source of truth
@@ -27,7 +27,7 @@ New (this project, **CC-BY-4.0**):
 
 | ID         | Label                          | For                                   |
 | ---------- | ------------------------------ | ------------------------------------- |
-| `hue`      | AApalette hue (normal vision)  | **normal vision** (recommended default) |
+| `hue`      | AApalette hue (typical colour vision)  | **typical colour vision** (recommended default) |
 | `redgreen` | AApalette red-green CVD safe   | **red-green CVD** (deuteranopia & protanopia) |
 | `tritan`   | AApalette tritan CVD safe      | **tritanopia**                        |
 
@@ -43,7 +43,7 @@ Classical (community-standard, attributed — see below):
 | `rasmol`  | RasMol amino         | RasMol amino colour scheme              |
 | `shapely` | RasMol shapely       | RasMol/Jmol shapely (Fletterick models) |
 
-**Recommended:** `hue` for normal vision · `redgreen` for red-green colour-vision
+**Recommended:** `hue` for typical colour vision · `redgreen` for red-green colour-vision
 deficiency · `tritan` for tritan deficiency.
 
 ## What's in this repo
@@ -68,8 +68,8 @@ writes via *Save scheme*. Confirmed against Jalview's
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:JalviewUserColours schemeName="AApalette hue (normal vision)" xmlns:ns2="www.jalview.org/colours">
-  <colour Name="A" RGB="769214"/>
+<ns2:JalviewUserColours schemeName="AApalette hue (typical colour vision)" xmlns:ns2="www.jalview.org/colours">
+  <colour Name="A" RGB="A8E4A0"/>
   ...
   <colour Name="X" RGB="BEBEBE"/>
   <colour Name="Gap" RGB="FFFFFF"/>
@@ -96,7 +96,7 @@ writes via *Save scheme*. Confirmed against Jalview's
 2. Menu **Colour → User Defined…** — the *User Defined Colours* dialog opens.
 3. Click **Load scheme** and choose a file from `schemes/`, e.g.
    `schemes/hue.jc`.
-4. The scheme name (e.g. *AApalette hue (normal vision)*) appears; click
+4. The scheme name (e.g. *AApalette hue (typical colour vision)*) appears; click
    **Apply** then **Close**. The scheme is now applied and is remembered for
    future sessions (it also appears directly under the **Colour** menu).
 
