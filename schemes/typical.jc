@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:JalviewUserColours schemeName="AApalette typical (typical colour vision)" xmlns:ns2="www.jalview.org/colours">
   <colour Name="A" RGB="4C6B30"/>
-  <colour Name="C" RGB="6C4BA1"/>
+  <colour Name="C" RGB="FFA6C9"/>
   <colour Name="D" RGB="B81212"/>
   <colour Name="E" RGB="EE3B5C"/>
   <colour Name="F" RGB="EFBF04"/>
-  <colour Name="G" RGB="C0C0C0"/>
+  <colour Name="G" RGB="666666"/>
   <colour Name="H" RGB="1E5DA5"/>
   <colour Name="I" RGB="71BC78"/>
   <colour Name="K" RGB="1B9AF7"/>
   <colour Name="L" RGB="2ADB2A"/>
   <colour Name="M" RGB="98FB98"/>
   <colour Name="N" RGB="FF8651"/>
-  <colour Name="P" RGB="A44DD7"/>
+  <colour Name="P" RGB="800080"/>
   <colour Name="Q" RGB="D0AB9D"/>
   <colour Name="R" RGB="00CCCC"/>
   <colour Name="S" RGB="6E3D06"/>
