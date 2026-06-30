@@ -2,24 +2,24 @@
 <ns2:JalviewUserColours schemeName="AApalette red-green CVD safe" xmlns:ns2="www.jalview.org/colours">
   <colour Name="A" RGB="FBCEB1"/>
   <colour Name="C" RGB="DE3163"/>
-  <colour Name="D" RGB="1E90FF"/>
-  <colour Name="E" RGB="5C2A4E"/>
-  <colour Name="F" RGB="801818"/>
+  <colour Name="D" RGB="6E1F4E"/>
+  <colour Name="E" RGB="2C75FF"/>
+  <colour Name="F" RGB="EEDC82"/>
   <colour Name="G" RGB="DCDCDC"/>
-  <colour Name="H" RGB="FF5DA2"/>
-  <colour Name="I" RGB="7B3F8C"/>
-  <colour Name="K" RGB="4F69C6"/>
+  <colour Name="H" RGB="46CB18"/>
+  <colour Name="I" RGB="5A4FCF"/>
+  <colour Name="K" RGB="002FA7"/>
   <colour Name="L" RGB="C8A2C8"/>
-  <colour Name="M" RGB="EAA221"/>
+  <colour Name="M" RGB="C54B8C"/>
   <colour Name="N" RGB="000080"/>
-  <colour Name="P" RGB="93C572"/>
-  <colour Name="Q" RGB="C19A87"/>
+  <colour Name="P" RGB="EC5800"/>
+  <colour Name="Q" RGB="D0AB9D"/>
   <colour Name="R" RGB="A81C07"/>
-  <colour Name="S" RGB="CB5A1B"/>
-  <colour Name="T" RGB="178A8A"/>
-  <colour Name="V" RGB="3E8A6B"/>
-  <colour Name="W" RGB="722F37"/>
-  <colour Name="Y" RGB="FFD400"/>
+  <colour Name="S" RGB="92103A"/>
+  <colour Name="T" RGB="9A2A66"/>
+  <colour Name="V" RGB="40826D"/>
+  <colour Name="W" RGB="B98EDC"/>
+  <colour Name="Y" RGB="FFFF00"/>
   <colour Name="B" RGB="BEBEBE"/>
   <colour Name="Z" RGB="BEBEBE"/>
   <colour Name="X" RGB="BEBEBE"/>

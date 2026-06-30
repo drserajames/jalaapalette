@@ -1,7 +1,7 @@
 # jalaapalette — amino-acid colour schemes for Jalview
 
 <!-- aapalette logo (shields.io coloured residues) -->
-![A](https://img.shields.io/static/v1?label=&message=A&color=A8E4A0&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=A8E4A0&style=flat-square)![P](https://img.shields.io/static/v1?label=&message=P&color=A44DD7&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=A8E4A0&style=flat-square)![L](https://img.shields.io/static/v1?label=&message=L&color=2ADB2A&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CD5700&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CD5700&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)
+![A](https://img.shields.io/static/v1?label=&message=A&color=4C6B30&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=4C6B30&style=flat-square)![P](https://img.shields.io/static/v1?label=&message=P&color=A44DD7&style=flat-square)![A](https://img.shields.io/static/v1?label=&message=A&color=4C6B30&style=flat-square)![L](https://img.shields.io/static/v1?label=&message=L&color=2ADB2A&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CD5700&style=flat-square)![T](https://img.shields.io/static/v1?label=&message=T&color=CD5700&style=flat-square)![E](https://img.shields.io/static/v1?label=&message=E&color=EE3B5C&style=flat-square)
 
 Importable [Jalview](https://www.jalview.org/) colour-scheme files for **10
 amino-acid colour palettes**, generated from a single source of truth
@@ -17,7 +17,7 @@ handling:
 | `pyaapalette`  | Python    | Python package                    |
 | **`jalaapalette`** | **Jalview** | **`JalviewUserColours` `.jc` files** (this repo) |
 
-The headline value is the **3 new schemes** — `hue`, `redgreen`, `tritan` —
+The headline value is the **3 new schemes** — `typical`, `redgreen`, `blueyellow` —
 since Jalview already ships clustal/zappo/taylor/rasmol built in. All 10 are
 included anyway for parity with the R/Python packages.
 
@@ -27,9 +27,9 @@ New (this project, **CC-BY-4.0**):
 
 | ID         | Label                          | For                                   |
 | ---------- | ------------------------------ | ------------------------------------- |
-| `hue`      | AApalette hue (typical colour vision)  | **typical colour vision** (recommended default) |
+| `typical`      | AApalette typical (typical colour vision)  | **typical colour vision** (recommended default) |
 | `redgreen` | AApalette red-green CVD safe   | **red-green CVD** (deuteranopia & protanopia) |
-| `tritan`   | AApalette tritan CVD safe      | **tritanopia**                        |
+| `blueyellow`   | AApalette blue-yellow (tritanopia safe)      | **tritanopia**                        |
 
 Classical (community-standard, attributed — see below):
 
@@ -43,8 +43,8 @@ Classical (community-standard, attributed — see below):
 | `rasmol`  | RasMol amino         | RasMol amino colour scheme              |
 | `shapely` | RasMol shapely       | RasMol/Jmol shapely (Fletterick models) |
 
-**Recommended:** `hue` for typical colour vision · `redgreen` for red-green colour-vision
-deficiency · `tritan` for tritan deficiency.
+**Recommended:** `typical` for typical colour vision · `redgreen` for red-green colour-vision
+deficiency · `blueyellow` for tritan deficiency.
 
 ## What's in this repo
 
@@ -68,7 +68,7 @@ writes via *Save scheme*. Confirmed against Jalview's
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:JalviewUserColours schemeName="AApalette hue (typical colour vision)" xmlns:ns2="www.jalview.org/colours">
+<ns2:JalviewUserColours schemeName="AApalette typical (typical colour vision)" xmlns:ns2="www.jalview.org/colours">
   <colour Name="A" RGB="A8E4A0"/>
   ...
   <colour Name="X" RGB="BEBEBE"/>
@@ -95,8 +95,8 @@ writes via *Save scheme*. Confirmed against Jalview's
 1. Open an alignment in Jalview.
 2. Menu **Colour → User Defined…** — the *User Defined Colours* dialog opens.
 3. Click **Load scheme** and choose a file from `schemes/`, e.g.
-   `schemes/hue.jc`.
-4. The scheme name (e.g. *AApalette hue (typical colour vision)*) appears; click
+   `schemes/typical.jc`.
+4. The scheme name (e.g. *AApalette typical (typical colour vision)*) appears; click
    **Apply** then **Close**. The scheme is now applied and is remembered for
    future sessions (it also appears directly under the **Colour** menu).
 
@@ -127,7 +127,7 @@ below).
 
 ## Attribution
 
-The **`hue`, `redgreen`, and `tritan`** schemes are from this project — the
+The **`typical`, `redgreen`, and `blueyellow`** schemes are from this project — the
 **AApalette** amino-acid colour alphabet — and are released **CC-BY-4.0**.
 Please cite the forthcoming methods write-up:
 
@@ -155,7 +155,7 @@ and any personal/agent palettes, are **intentionally not included**.
 **No 20-colour palette is safe for every deficiency at once.** For robust
 figures, **pair colour with the residue letter** (redundant coding) rather than
 relying on colour alone. The `redgreen` scheme is optimised for red-green
-deficiency (not tritan); the `tritan` scheme is optimised for tritanopia (not
+deficiency (not tritan); the `blueyellow` scheme is optimised for tritanopia (not
 red-green). The ΔE values recorded in `aa_palettes.json` are **CIEDE2000
 minima** (the smallest perceptual distance between any two residues under each
 simulated vision type).

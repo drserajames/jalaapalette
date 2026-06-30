@@ -25,7 +25,7 @@ SOFTWARE.
 This MIT licence covers the CODE in this package (the generator script, the
 tests, and supporting tooling).
 
-The colour-palette DATA -- the `hue`, `redgreen`, and `tritan` schemes from
+The colour-palette DATA -- the `typical`, `redgreen`, and `blueyellow` schemes from
 this project, and the values bundled in `aa_palettes.json` -- are released
 under CC-BY-4.0. See LICENSE-DATA. The classical schemes (clustal, zappo,
 taylor, lesk, cinema, rasmol, shapely) are attributed to their original

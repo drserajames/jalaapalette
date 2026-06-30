@@ -5,7 +5,7 @@ The amino-acid colour-palette DATA in this package is licensed under the
 Creative Commons Attribution 4.0 International License.
 
 This covers, in particular, the three colour schemes introduced by this
-project -- `hue`, `redgreen`, and `tritan` (the "AApalette" amino-acid colour
+project -- `typical`, `redgreen`, and `blueyellow` (the "AApalette" amino-acid colour
 alphabet) -- together with the values distributed in `aa_palettes.json`.
 
   Deed (human-readable summary): https://creativecommons.org/licenses/by/4.0/
@@ -24,7 +24,7 @@ Under the following terms:
 
 Suggested attribution
 ---------------------
-    AApalette amino-acid colour schemes (hue / redgreen / tritan),
+    AApalette amino-acid colour schemes (typical / redgreen / blueyellow),
     The AApalette Authors, 2026. CC-BY-4.0.
     Methods: <forthcoming write-up; placeholder citation>.
 

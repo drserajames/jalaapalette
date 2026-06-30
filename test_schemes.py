@@ -25,7 +25,7 @@ SCHEMES_DIR = os.path.join(HERE, "schemes")
 NS = "www.jalview.org/colours"
 
 EXPECTED_SCHEMES = [
-    "hue", "redgreen", "tritan",            # this work (new)
+    "typical", "redgreen", "blueyellow",            # this work (new)
     "clustal", "zappo", "taylor", "lesk",   # classical
     "cinema", "rasmol", "shapely",
 ]
