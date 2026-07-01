@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:JalviewUserColours schemeName="AApalette typical (typical colour vision)" xmlns:ns2="www.jalview.org/colours">
   <colour Name="A" RGB="4C6B30"/>
-  <colour Name="C" RGB="FFA6C9"/>
+  <colour Name="C" RGB="FFBCD9"/>
   <colour Name="D" RGB="B81212"/>
-  <colour Name="E" RGB="EE3B5C"/>
+  <colour Name="E" RGB="FF4D8D"/>
   <colour Name="F" RGB="EFBF04"/>
   <colour Name="G" RGB="666666"/>
   <colour Name="H" RGB="1E5DA5"/>
